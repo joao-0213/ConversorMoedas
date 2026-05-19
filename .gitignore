@@ -1,16 +1,23 @@
+# Arquivos do Android Studio
 *.iml
-.gradle
-/.idea
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.gradle/
 local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild
+.cxx/
+
+# Arquivos de build
+*.apk
+*.aab
+*.dex
+*.class
+
+# Logs
+*.log
+
+# Chaves de assinatura
+*.keystore
+*.jks
